@@ -14,7 +14,7 @@ function clearnotifications() {
     notif.classList.remove('unread');
   });
   redDotNotification.forEach(function (notif) {
-    notif.classList.add('hidden');
+    notif.classList.remove('show');
   });
 
   notificationsNumber.textContent = 0;
