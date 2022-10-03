@@ -7,7 +7,7 @@
 
 body {
   background-color: #f7fafd;
-  margin: 0;
+  margin: 0 20px;
   padding: 0;
 }
 
@@ -62,7 +62,7 @@ body {
 
 .notification {
   display: flex;
-  margin: 10px 0;
+  margin: 6px 0;
   padding: 10px;
 }
 
@@ -86,11 +86,11 @@ body {
   font-size: 12px;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  color: hsl(219, 12%, 42%);
+  color: #5e6778;
 }
 
 .private-msg {
-  border: 2px solid #e5effa;
+  border: 2px solid #dde7ee;
   display: inline-block;
   padding: 16px;
 }
@@ -107,12 +107,12 @@ strong {
 
 /* js related */
 .unread {
-  background-color: hsla(210, 60%, 98%);
+  background-color: #f7fafd;
   border-radius: 8px;
 }
 
 .red-dot {
-  display: inline-block;
+  display: none;
   width: 8px;
   height: 8px;
   border-radius: 50%;
@@ -121,6 +121,6 @@ strong {
   margin-bottom: 2px;
 }
 
-.hidden {
-  display: none;
+.show {
+  display: inline-block;
 }
