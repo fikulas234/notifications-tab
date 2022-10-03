@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&family=Poppins:wght@200;400;500;700;800;900&family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+  background-color: #f7fafd;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 60px auto;
+  max-width: 900px;
+  height: 100%;
+  background-color: #fff;
+  padding: 2px 20px;
+}
+
+.container p {
+  color: #5e6778;
+}
+
+.notif-and-btn {
+  display: flex;
+  justify-content: space-between;
+}
+.notifications-title {
+  display: flex;
+}
+
+.notif-num {
+  background-color: #0a317b;
+  display: inline-block;
+  width: 35px;
+  height: 30px;
+  border-radius: 6px;
+  color: #fff;
+  text-align: center;
+  align-self: center;
+  margin-left: 8px;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.btn-container {
+  align-self: center;
+}
+
+.btn-container button {
+  border: none;
+  background-color: #fff;
+  color: #5e6778;
+  cursor: pointer;
+}
+
+.btn-container button:hover {
+  color: #0a317b;
+}
+
+.notification {
+  display: flex;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.notification p {
+  margin: 0;
+}
+
+.notification img {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.name {
+  font-weight: 800;
+  margin-right: 5px;
+  color: #000;
+}
+
+.notif-time {
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: hsl(219, 12%, 42%);
+}
+
+.private-msg {
+  border: 2px solid #e5effa;
+  display: inline-block;
+  padding: 16px;
+}
+
+strong {
+  margin-left: 5px;
+}
+
+.chess-club {
+  color: #0a317b;
+  font-weight: 800;
+  margin-left: 5px;
+}
+
+/* js related */
+.unread {
+  background-color: hsla(210, 60%, 98%);
+  border-radius: 8px;
+}
+
+.red-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #f65351;
+  margin-left: 5px;
+  margin-bottom: 2px;
+}
+
+.hidden {
+  display: none;
+}
